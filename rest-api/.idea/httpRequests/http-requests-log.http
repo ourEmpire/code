@@ -1,0 +1,84 @@
+GET http://localhost:80/api/1.0/users/all
+
+<> 2019-10-15T120853.200.txt
+
+###
+
+GET http://localhost:80/api/1.0/users
+
+<> 2019-10-12T052348.400.json
+
+###
+
+GET http://localhost:80/api/1.0/users
+
+<> 2019-10-11T062044.400.json
+
+###
+
+GET http://localhost:80/api/1.0/users
+
+<> 2019-10-11T062032.400.json
+
+###
+
+GET http://localhost:80/api/1.0/users/all
+
+<> 2019-10-11T052208.200.txt
+
+###
+
+GET http://localhost:80/api/1.0/users/all
+
+<> 2019-10-11T052207.200.txt
+
+###
+
+GET http://localhost:80/api/1.0/users/all
+
+<> 2019-10-11T052158.200.txt
+
+###
+
+GET http://localhost:80/api/1.0/users/all
+
+<> 2019-10-11T052057.200.txt
+
+###
+
+GET http://localhost:80/api/1.0/users/all
+
+<> 2019-10-10T053446.500.json
+
+###
+
+GET http://localhost:80/api/1.0/users/all
+
+<> 2019-10-10T053436.500.json
+
+###
+
+GET http://localhost:80/api/1.0/users/all
+
+<> 2019-10-10T053219.500.json
+
+###
+
+GET http://localhost:80/api/1.0/users/all
+
+<> 2019-10-10T052845.500.json
+
+###
+
+GET http://localhost:80/api/1.0/users/all
+
+<> 2019-10-10T052322.500.json
+
+###
+
+GET http://localhost:80/api/1.0/users/all
+
+<> 2019-10-10T052108.500.json
+
+###
+

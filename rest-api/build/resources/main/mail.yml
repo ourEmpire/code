@@ -1,0 +1,21 @@
+email:
+  conf:
+    defaultEncoding: UTF-8
+    username: caretine@qq.com       #ourfor@foxmail.com
+    password: pwohoucpookpfgcg
+
+    subject: 验证码
+    type: text/html;charset=UTF-8
+
+  smtp:
+    port: 465
+    host: smtp.qq.com
+    auth: true
+
+   # defaultEncoding: UTF-8
+      #  starttls:
+      #    enable: false
+      #    required: false
+    ssl:
+      enable: true
+

@@ -1,0 +1,13 @@
+config:
+  dir: "/Users/catalina/IdeaProjects/blog/web/img/thumb"
+  url: "file.ourfor.top"
+  name: "ourfor"
+
+mail:
+  conf:
+    SITE_NAME: Zip的小窝
+    SITE_URL: https://blog.ourfor.top
+    SENDER_NAME: 肥猫瑞伊
+    ADMIN_URL: https://blog.ourfor.top/dashboard/comments
+    MAIL_SUBJECT_ADMIN: Zip的小窝上面有新评论
+    MAIL_SUBJECT: ${PARENT_NAME}, 您在${SITE_NAME}上面的评论收到回复

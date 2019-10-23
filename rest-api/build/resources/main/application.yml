@@ -1,0 +1,92 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 300MB
+      max-request-size: 300MB
+  mustache:
+    check-template-location: false
+
+  main:
+    allow-bean-definition-overriding: true
+
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming:
+        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+
+  datasource:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://localhost;database=rest
+    username: sa
+    password: 20172019DB##
+
+  security:
+    user:
+      name: sa
+      password: 20172019DB##
+
+  mail:
+    default-encoding: UTF-8
+    host: smtp.qq.com
+    username: caretine@qq.com       #ourfor@foxmail.com
+    password: 1508248159            #kyuukqaveehzeahj
+    password2: pwohoucpookpfgcg
+    port: 465
+    subject: 验证码
+
+    properties:
+      mail:
+        smtp:
+          auth: true
+          username: caretine@qq.com       #ourfor@foxmail.com
+          password: 1508248159            #kyuukqaveehzeahj
+          defaultEncoding: UTF-8
+          starttls:
+            enable: false
+            required: false
+          ssl:
+            enable: true
+
+
+
+server:
+  port: 80
+  servlet:
+    context-path: /api/1.0/
+
+management:
+  endpoints:
+    web:
+      base-path: /monitor
+      exposure:
+        include: '*'
+  endpoint:
+    shutdown:
+      enabled: true
+    health:
+      show-details: always
+
+
+  mail:
+    #default-encoding: UTF-8
+    host: smtp.qq.com
+    #username: caretine@qq.com       #ourfor@foxmail.com
+    #password: 1508248159            #kyuukqaveehzeahj
+    password2: pwohoucpookpfgcg
+    port: 465
+    subject: 验证码
+
+
+    smtp:
+      auth: true
+      username: caretine@qq.com   #ourfor@foxmail.com
+      password: 1508248159        #kyuukqaveehzeahj
+      defaultEncoding: UTF-8
+        #  starttls:
+      #    enable: false
+      #    required: false
+      ssl:
+        enable: true
